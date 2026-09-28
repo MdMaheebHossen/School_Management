@@ -1,3 +1,5 @@
 from django.contrib import admin
+from users_auth.models import CustomUser, BasicInfoModel, StudentModel, TeacherModel
 
-# Register your models here.
+
+admin.site.register(CustomUser)
