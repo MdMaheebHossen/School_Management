@@ -4,3 +4,4 @@ from users_auth.models import CustomUser, BasicInfoModel, StudentModel, TeacherM
 
 admin.site.register(CustomUser)
 admin.site.register(BasicInfoModel)
+admin.site.register(StudentModel)
